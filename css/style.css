@@ -10,7 +10,20 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+.logo{
+  max-width: 120px;
+  margin: 20px;
+}
 
+.landing-page-images{
+  display: flex;
+  flex-direction: row;
+}
+
+.landing-images{
+  max-width: 23%;
+  margin-right: 10px;
+}
 
 
 /******************************************
