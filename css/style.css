@@ -10,9 +10,97 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+.nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.nav-left-wrapper{
+  display:flex;
+  flex-direction: row;
+  min-width: 40%;
+  align-items: center;
+}
+
 .logo{
   max-width: 120px;
   margin: 20px;
+}
+
+
+.title {
+  font-family: alternate-gothic-no-2-d, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #669999;
+  margin-left: 40px;
+}
+
+.title-2{
+  font-family: alternate-gothic-no-2-d, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #666666;
+}
+
+.nav-right-wrapper{
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+  min-width: 40%;
+  align-items: center;
+}
+
+.header-nav-link{
+  list-style: none;
+  margin-right: 20px;
+  font-family: dunbar-tall, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  Color: #666666;
+
+}
+
+.navlist{
+  display:flex;
+  flex-direction: row;
+}
+
+.connect-wallet{
+  font-family: dunbar-tall, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #669999;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 20px;  
+  margin-left: 40px;
+}
+
+
+
+.hero{
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-left-column{
+  max-width: 40%;
+}
+
+/*.hero-right-column{
+  
+  
+  
+}*/
+
+.hero-image{
+  max-height: 360px;
 }
 
 .landing-page-images{
