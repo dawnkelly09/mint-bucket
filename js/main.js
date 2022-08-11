@@ -1,1 +1,5 @@
-const Web3 = require('web3');
+const { default: Moralis } = require("moralis");
+
+const serverUrl = "";
+const appId = "";
+Moralis.start({serverUrl, appID});
