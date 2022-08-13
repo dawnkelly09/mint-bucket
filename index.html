@@ -6,12 +6,14 @@
     	<meta name="keywords" content="mintbucket, web3storage, nftstorage, photo, album, NFT, mint">
 
 		<title>MintBucket</title>
-		<link rel="stylesheet" href="https://use.typekit.net/olv8cxq.css">
 
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="https://unpkg.com/moralis-v1/dist/moralis.js"></script>
+		
+
 	</head>
 	<body>
 		<header>
@@ -31,7 +33,10 @@
 						<li class="header-nav-link">Link</li>
 						<li class="header-nav-link">Link</li>
 					</ul>
-					<button id="connect-wallet" class="connect-wallet">Connect Wallet</button>
+					<div class="button-wrapper">
+						<button id="connect-wallet" class="connect-wallet">Connect Wallet</button>
+						<!--<button id="btn-logout" class="btn-logout">Disconnect</button>-->
+					</div>
 				</div>
 
 			</nav>
