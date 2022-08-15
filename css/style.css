@@ -14,12 +14,17 @@ p{
   font-family: dunbar-tall, sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #666666;
+  line-height: 1.25;
+  font-size: 18px;
 }
 
 h1{
   font-family: dunbar-text, sans-serif;
   font-weight: 800;
   font-style: normal;
+  color: #666666;
+  margin-bottom: 40px;
 }
 
 button{
@@ -116,7 +121,15 @@ button{
 .hero-left-column{
   margin-left: 20px;
   max-width: 40%;
+  margin-right: 20px;
 }
+
+.hero-copy{
+  max-width: 420px;
+  margin-bottom: 40px;
+}
+
+
 
 .hero-right-column{
   display: flex;
@@ -127,15 +140,13 @@ button{
 }
 
 .hero-image {
-  max-height: 360px;
+  max-height: 280px;
   margin-right: 10px;
+  margin-top: 20px;
   
 }
 
-.hero-image-2{
-  max-height: 360px;
-  
-}
+
 
 /*landing-page sections*/
 
