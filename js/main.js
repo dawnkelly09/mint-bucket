@@ -3,7 +3,7 @@ const serverUrl = "https://mczld76x1lnp.usemoralis.com:2053/server";
 const appId = "tq3TUnN7bIwEaAVKo4T555eQ9AngSOo9DZMn96un";
 Moralis.start({ serverUrl, appId });
 
-/* Authentication code */
+/* Authentication code for wallet connect button*/
 async function login() {
     let user = Moralis.User.current();
     if (!user) {
@@ -19,7 +19,7 @@ async function login() {
         });
     }
   }
-  
+  //logout button script
   async function logOut() {
     await Moralis.User.logOut();
     console.log("logged out");

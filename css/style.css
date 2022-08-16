@@ -10,6 +10,7 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 p{
   font-family: dunbar-tall, sans-serif;
   font-weight: 400;
@@ -143,7 +144,6 @@ button{
   max-height: 280px;
   margin-right: 10px;
   margin-top: 20px;
-  
 }
 
 
@@ -158,9 +158,12 @@ button{
 }
 
 .landing-images{
-  max-width: 23%;
+  min-width: 23%;
+  max-width: 25%;
   margin-right: 10px;
+  margin-top: 60px;
 }
+
 
 
 /******************************************
